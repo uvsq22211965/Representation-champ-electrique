@@ -4,7 +4,8 @@ Ce projet universitaire à été réalisé en deuxième année de licence à l'U
 
 ___
 
-**Attention** ! Nous vous recommandons d'éxécuter la commande suivante dans votre terminal: **"pip install -r requirements.txt"**
+Tout le code associé à ce projet se trouve dans le dossier projet.ipynb
+**Attention** ! Afin de vous assurer de pouvoir faire tourner chaque programme, nous vous recommandons d'éxécuter la commande suivante dans votre terminal: **"pip install -r requirements.txt"**
 
 ---
 
