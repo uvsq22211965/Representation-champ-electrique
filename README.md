@@ -123,7 +123,9 @@ La méthode `__init__` permet d'initialiser une instance de la classe **Surface*
 def __init__(self, parametrage: callable, domaine_u: tuple[float, float, bool], domaine_v: tuple[float, float, bool], densite: int, *args) -> "Surface"
 ```
 
-Pour rappel, une surface $(S)$ est décrite par 2 variables qu'on appelera $u$ et $v$. Ainsi, si $M \in (S)$ alors $M(u,v) = \begin{pmatrix}
+Pour rappel, une surface $(S)$ est décrite par 2 variables qu'on appelera $u$ et $v$. Ainsi, si $M \in (S)$ alors 
+$
+M(u,v) = \begin{pmatrix}
 x(u,v) \\
 y(u,v) \\
 z(u,v)
