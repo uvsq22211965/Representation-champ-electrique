@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="img/plan/limites_spatiale_approx_champ_infini_v2.png" alt="limites_spatiale_approx_champ_infini_v2" />
-</p>
-
 # **Représentation d'un champ électrique**
 
 Ce projet universitaire à été réalisé en deuxième année de licence à l'Université de Versailles St Quentin par Jean-Baptiste Serinet et Maël Berthet dans le but de construire un outil de représentation du champ électrique engendré par une surface donnée ainsi que leurs combinaisons dans des condensateurs
@@ -24,7 +20,7 @@ Le dossier du projet est décomposé en 5 fichiers:
 
 - **"README.md"**
 
-On retrouve également un dossier "tests_images" qui contient tous les plots des tests que nous avons effectués.
+On retrouve également un dossier "img" qui contient tous les plots des tests que nous avons effectués.
 
 ---
 
@@ -195,7 +191,7 @@ def sphere(u, v, R=1):
 La méthode `calculer_dS` permet de calculer **l'aire infinitésimale associée à chaque point** de la surface. Comme la répartition de point **n'est pas forcément uniforme** sur la surface, elle permet de donner le même poids, notamment lors du calcule du champ, à chaque zone de la surface. On le remarque bien sur une sphère, surface dont les poles sont plus denses:
 
 <p align="center">
-  <img src="tests_images/sphere/repartition_dS.png" alt="repartition_dS" />
+  <img src="img/sphere/repartition_dS.png" alt="repartition_dS" />
 </p>
 
 Elle ne prend pas d'argument et renvoie un tableau 1D contenant autant de valeurs que de points sur la surface. Chaque valeur représente l'élément d'aire associée au point correspondant.
@@ -230,7 +226,7 @@ En reprenant les notations précédentes:
 La méthode `calculer_aire` permet **d'estimer l'aire de la surface**. Elle renvoie la somme de toutes les aires infinitésimales portées par chaque point. L'approximation est **d'autant plus fine que la densité est élevée**. Par exemple, voici le graph de l'erreur d'approximation pour un disque de rayon 1 en fonction de la densité:
 
 <p align="center">
-  <img src="tests_images/disque/erreur_aire.png" alt="erreur_aire" />
+  <img src="img/disque/erreur_aire.png" alt="erreur_aire" />
 </p>
 
 Elle ne prend pas d'argument et renvoie une approximation de l'aire de la surface.
@@ -613,7 +609,7 @@ quand on se situe suffisamment proche du disque.
 Nous sommes donc sensés retrouver ces résultats avec notre fonction. Commençons lorsqu'on se situe "**loin**" du disque (cf. figure ci-dessous):
 
 <p align="center">
-  <img src="tests_images/disque/erreur_champ_loin_densite.png" alt="erreur_champ_loin_densite" />
+  <img src="img/disque/erreur_champ_loin_densite.png" alt="erreur_champ_loin_densite" />
 </p>
 
 On observe sur l'**axe des ordonnée l'altitude relative au disque** et sur l'**axe des abscisses la densité** liée au disque. **Chacune des valeurs représente le pourcentage d'erreur** entre notre calcule et la valeur théorique. Voici un tableau nous permettant d'avoir une meilleur idée:
@@ -636,7 +632,7 @@ On remarque qu'en moyenne, cette erreur est très faible ce qui nous encourage �
 Regardons ce qui se passe "**près**" du disque maintenant:
 
 <p align="center">
-  <img src="tests_images/disque/erreur_champ_proche_densite.png" alt="erreur_champ_proche_densite" />
+  <img src="img/disque/erreur_champ_proche_densite.png" alt="erreur_champ_proche_densite" />
 </p>
 
 Avec toujours les **mêmes axes et grandeurs**. Voici le tableau:
@@ -670,7 +666,7 @@ où :
 Ainsi, toujours avec les **mêmes axes et grandeurs, "proche" de la sphère de rayon 1m**:
 
 <p align="center">
-  <img src="tests_images/sphere/erreur_champ_proche_densite_v2.png" alt="erreur_champ_proche_densite" />
+  <img src="img/sphere/erreur_champ_proche_densite_v2.png" alt="erreur_champ_proche_densite" />
 </p>
 
 Avec le tableau de valeur suivant:
@@ -686,7 +682,7 @@ Avec le tableau de valeur suivant:
 On remarque encore une fois que **plus l'on est proche de la distribution, plus la densité joue un rôle important**. On se place maintenant "**loin**" de la sphère:
 
 <p align="center">
-  <img src="tests_images/sphere/erreur_champ_loin_densite.png" alt="erreur_champ_loin_densite" />
+  <img src="img/sphere/erreur_champ_loin_densite.png" alt="erreur_champ_loin_densite" />
 </p>
 
 Avec le tableau de valeur suivant:
@@ -715,7 +711,7 @@ $$\mathbf{E}(r) = \frac{\sigma R}{\varepsilon_0 r}\mathbf{\hat{r}}$$
 Ainsi, toujours avec les **mêmes axes et grandeurs, "proche" du cylindre de rayon 1m et hauteur 10m**, on se place à une altitude de 5m:
 
 <p align="center">
-  <img src="tests_images/cylindre/erreur_champ_proche_densite.png" alt="erreur_champ_proche_densite" />
+  <img src="img/cylindre/erreur_champ_proche_densite.png" alt="erreur_champ_proche_densite" />
 </p>
 
 Avec le tableau de valeur suivant:
@@ -784,7 +780,7 @@ où:
 L'expression est compliquée mais quand on plot l'erreur entre ce champ et le notre, on obtient le long du centre de la plaque:
 
 <p align="center">
-  <img src="tests_images/plan/erreur_champ_loin_axe_centre.png" alt="erreur_champ_loin_axe_centre" />
+  <img src="img/plan/erreur_champ_loin_axe_centre.png" alt="erreur_champ_loin_axe_centre" />
 </p>
 
 et au point $M = \begin{pmatrix}
@@ -794,7 +790,7 @@ x
 \end{pmatrix}$:
 
 <p align="center">
-  <img src="tests_images/plan/erreur_champ_loin_(1,1,x).png" alt="erreur_champ_loin_(1,1,x)" />
+  <img src="img/plan/erreur_champ_loin_(1,1,x).png" alt="erreur_champ_loin_(1,1,x)" />
 </p>
 
 On se rend compte que le champ calculé est **très bon** et **dépend encore une fois de la densité**.
@@ -806,7 +802,7 @@ $$\mathbf{E}(z) \approx ±\frac{\sigma}{2 \varepsilon_0}\mathbf{\hat{z}}$$
 Nous avons essayé par la même occasion de déterminer les limites spatiales de l'approximation de la plaque infinie, voici les résultats pour une plaque carrée de côté 4m en faisant varier la densité:
 
 <p align="center">
-  <img src="tests_images/plan/erreur_champ_infini_densite.png" alt="erreur_champ_infini_densite" />
+  <img src="img/plan/erreur_champ_infini_densite.png" alt="erreur_champ_infini_densite" />
 </p>
 
 Avec le tableau ci-dessous: 
@@ -824,10 +820,10 @@ Les résultats dépendent encore une fois de la densité ce que est dû au fait 
 On fixe maintenant la densité à 600 et on fait à la fois varier l'altitude et la position sur l'axe (0x):
 
 <p align="center">
-  <img src="tests_images/plan/limites_spatiale_approx_champ_infini_v2.png" alt="limites_spatiale_approx_champ_infini_v2" />
+  <img src="img/plan/limites_spatiale_approx_champ_infini_v2.png" alt="limites_spatiale_approx_champ_infini_v2" />
 </p>
 <p align="center">
-  <img src="tests_images/plan/limites_spatiale_approx_champ_infini_v1.png" alt="limites_spatiale_approx_champ_infini_v1" />
+  <img src="img/plan/limites_spatiale_approx_champ_infini_v1.png" alt="limites_spatiale_approx_champ_infini_v1" />
 </p>
 
 Avec les tableaux ci-dessous:
