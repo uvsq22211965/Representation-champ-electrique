@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/banniere.png" />
+  <img src="img/banière.png" />
 </p>
 
 # **Représentation d'un champ électrique**
