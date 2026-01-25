@@ -5,7 +5,9 @@ Ce projet universitaire à été réalisé en deuxième année de licence à l'U
 
 # **Quelques images du projet**
 
-<img src="img/image_projet.png" />
+<p align="center">
+    <img src="img/image_projet.png" />
+</p>
 
 ## **Arborescence**
 
@@ -190,7 +192,9 @@ def sphere(u, v, R=1):
 
 La méthode `calculer_dS` permet de calculer **l'aire infinitésimale associée à chaque point** de la surface. Comme la répartition de point **n'est pas forcément uniforme** sur la surface, elle permet de donner le même poids, notamment lors du calcule du champ, à chaque zone de la surface. On le remarque bien sur une sphère, surface dont les poles sont plus denses:
 
-<img src="img/sphere/repartition_dS.png" alt="repartition_dS" />
+<p align="center">
+    <img src="img/sphere/repartition_dS.png" alt="repartition_dS" />
+</p>
 
 Elle ne prend pas d'argument et renvoie un tableau 1D contenant autant de valeurs que de points sur la surface. Chaque valeur représente l'élément d'aire associée au point correspondant.
 
