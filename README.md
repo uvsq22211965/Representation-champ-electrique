@@ -118,7 +118,9 @@ $$
 
 $$
 M(u,v) = \begin{pmatrix} 
-x(u,v) \\ y(u,v) \\ z(u,v) 
+x(u,v) \\ 
+y(u,v) \\ 
+z(u,v) 
 \end{pmatrix}
 $$
 
