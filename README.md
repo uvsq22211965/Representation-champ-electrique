@@ -6,8 +6,6 @@ ___
 
 **Attention** ! Nous vous recommandons d'éxécuter la commande suivante dans votre terminal: **"pip install -r requirements.txt"**
 
-Bienvenue ! Vous pourrez retrouver ici tous les objectifs et l'arborescence du projet ainsi qu'une explication quant à l'approche du problème que nous avons choisi. Vous retrouverez également une description des fonction et un exemple d'utilisation pour chacune.
-
 ---
 
 ## **Arborescence**
