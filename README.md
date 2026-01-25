@@ -1,19 +1,7 @@
 $$ 
 E_x(x, y, z) = \frac{\sigma}{4\pi \varepsilon_0} \left[ \sinh^{-1}\left(\frac{y + b}{\sqrt{(x + a)^2 + z^2}}\right)
-
-\sinh^{-1}\left(\frac{y - b}{\sqrt{(x + a)^2 + z^2}}\right)
-\sinh^{-1}\left(\frac{y + b}{\sqrt{(x - a)^2 + z^2}}\right)
-\sinh^{-1}\left(\frac{y - b}{\sqrt{(x - a)^2 + z^2}}\right) \right] 
 $$
 
-$$ 
-E_x(x, y, z) = \frac{\sigma}{4\pi \varepsilon_0} \left[ 
-\sinh^{-1}\left(\frac{y + b}{\sqrt{(x + a)^2 + z^2}}\right)
-- \sinh^{-1}\left(\frac{y - b}{\sqrt{(x + a)^2 + z^2}}\right)
-- \sinh^{-1}\left(\frac{y + b}{\sqrt{(x - a)^2 + z^2}}\right)
-+ \sinh^{-1}\left(\frac{y - b}{\sqrt{(x - a)^2 + z^2}}\right)
-\right] 
-$$
 
 
 # **Représentation d'un champ électrique**
