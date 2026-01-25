@@ -1,4 +1,13 @@
-Pour rappel, une surface $(S)$ est décrite par 2 variables qu'on appelera $u$ et $v$. Ainsi, si $M \in (S)$ alors $M(u,v) = \begin{pmatrix}
+Pour rappel, une surface $(S)$ est décrite par 2 variables qu'on appelera $u$ et $v$. Ainsi, si $M \in (S)$ alors 
+$$ 
+M(\phi,\theta) = \begin{pmatrix}
+Rsin(\phi)cos(\theta)\\
+Rsin(\phi)sin(\theta) \\
+Rcos(\phi)
+\end{pmatrix}
+$$
+$
+M(u,v) = \begin{pmatrix}
 x(u,v) \\
 y(u,v) \\
 z(u,v)
