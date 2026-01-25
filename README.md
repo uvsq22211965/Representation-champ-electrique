@@ -1,13 +1,6 @@
 # **Représentation d'un champ électrique**
 
-Ce projet universitaire à été réalisé en deuxième année de licence à l'Université de Versailles St Quentin par Jean-Baptiste Serinet et Maël Berthet dans le but de construire un outil de représentation du champ électrique engendré par une surface donnée, ainsi que leurs combinaisons dans des condensateurs.
-
-___
-
-Tout le code associé à ce projet se trouve dans le dossier projet.ipynb
-**Attention** ! Afin de vous assurer de pouvoir faire tourner chaque programme, nous vous recommandons d'éxécuter la commande suivante dans votre terminal: **"pip install -r requirements.txt"**
-
----
+Ce projet universitaire à été réalisé en deuxième année de licence à l'Université de Versailles St Quentin par Jean-Baptiste Serinet et Maël Berthet 
 
 ## **Arborescence**
 
@@ -15,7 +8,7 @@ Le dossier du projet est décomposé en 5 fichiers:
 
 - **"projet.ipynb"**: Ce fichier contient toutes les fonctions du projet. Il est découpé en niveaux - le niveau 1 étant le plus bas (ie indépendant des autres). On y retrouve également une zone de test et une section vierge pour exécuter les fonctions désirées.
 
-- **"requirements.txt"**: Contient les modules nécessaires au fonctionnement du projet.
+- **"requirements.txt"**: Contient les modules nécessaires au fonctionnement du projet. Nous vous recommandons d'éxécuter la commande suivante dans votre terminal: **"pip install -r requirements.txt"** afin de vous assurer de pouvoir faire tourner chaque programme correctement.
 
 - **"README.md"**
 
