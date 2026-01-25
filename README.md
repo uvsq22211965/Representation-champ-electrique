@@ -15,8 +15,6 @@ Le dossier du projet est décomposé en 5 fichiers:
 
 - **"projet.ipynb"**: Ce fichier contient toutes les fonctions du projet. Il est découpé en niveaux - le niveau 1 étant le plus bas (ie indépendant des autres). On y retrouve également une zone de test et une section vierge pour exécuter les fonctions désirées.
 
-- **"structure_du_projet.ipynb"**: Dans ce fichier vous retrouverez en détail toutes les fonctions présentes dans le projet, leur description et un exemple d'utilisation. Les tests sur les fonctions y sont également présentés.
-
 - **"requirements.txt"**: Contient les modules nécessaires au fonctionnement du projet.
 
 - **"README.md"**
