@@ -1,16 +1,10 @@
-$$ E_x(x, y, z) = \frac{\sigma}{4\pi \varepsilon_0} \left[ \sinh^{-1}\left(\frac{y + b}{\sqrt{(x + a)^2 + z^2}}\right)
+$$ 
+E_x(x, y, z) = \frac{\sigma}{4\pi \varepsilon_0} \left[ \sinh^{-1}\left(\frac{y + b}{\sqrt{(x + a)^2 + z^2}}\right)
 
 \sinh^{-1}\left(\frac{y - b}{\sqrt{(x + a)^2 + z^2}}\right)
 \sinh^{-1}\left(\frac{y + b}{\sqrt{(x - a)^2 + z^2}}\right)
-\sinh^{-1}\left(\frac{y - b}{\sqrt{(x - a)^2 + z^2}}\right) \right] $$
-$$ E_y(x, y, z) = \frac{\sigma}{4\pi \varepsilon_0} \left[ \sinh^{-1}\left(\frac{x + a}{\sqrt{(y + b)^2 + z^2}}\right)
-
-\sinh^{-1}\left(\frac{x - a}{\sqrt{(y + b)^2 + z^2}}\right)
-\sinh^{-1}\left(\frac{x + a}{\sqrt{(y - b)^2 + z^2}}\right)
-\sinh^{-1}\left(\frac{x - a}{\sqrt{(y - b)^2 + z^2}}\right) \right] $$ $$ E_z(x, y, z) = \frac{\sigma}{4\pi \varepsilon_0} \left[ \arctan\left( \frac{(y + b)(x + a)}{z\sqrt{(y + b)^2 + z^2 + (x + a)^2}} \right)
-\arctan\left( \frac{(y + b)(x - a)}{z\sqrt{(y + b)^2 + z^2 + (x - a)^2}} \right) \right. \ \left.
-\arctan\left( \frac{(y - b)(x + a)}{z\sqrt{(y - b)^2 + z^2 + (x + a)^2}} \right)
-\arctan\left( \frac{(y - b)(x - a)}{z\sqrt{(y - b)^2 + z^2 + (x - a)^2}} \right) \right] $$
+\sinh^{-1}\left(\frac{y - b}{\sqrt{(x - a)^2 + z^2}}\right) \right] 
+$$
 
 # **Représentation d'un champ électrique**
 
