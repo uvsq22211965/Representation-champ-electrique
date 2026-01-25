@@ -347,19 +347,24 @@ La méthode `translate` permet comme son nom l'indique permet de **translater** 
 def translate(self, dl : tuple[float]) -> "Maillage"
 ```
 
-Si $$
+Si 
+
+$$
 \mathbf{dl} = \begin{pmatrix}
 dx \\
 dy \\
 dz
 \end{pmatrix}
 $$
+
 alors la méthode renvoie un maillage tel que, 
+
 $$
-\forall M \in Maillage, M = \begin{pmatrix}
-x + dx \\
-y + dy \\
-z + dz
+\forall M \in Maillage, 
+M = \begin{pmatrix}
+    x + dx \\
+    y + dy \\
+    z + dz
 \end{pmatrix}
 $$
 
@@ -791,11 +796,15 @@ L'expression est compliquée mais quand on plot l'erreur entre ce champ et le no
   <img src="img/plan/erreur_champ_loin_axe_centre.png" alt="erreur_champ_loin_axe_centre" />
 </p>
 
-et au point $M = \begin{pmatrix}
+et au point 
+
+$$
+M = \begin{pmatrix}
 1\\
 1\\
 x
-\end{pmatrix}$:
+\end{pmatrix}
+$$
 
 <p align="center">
   <img src="img/plan/erreur_champ_loin_(1,1,x).png" alt="erreur_champ_loin_(1,1,x)" />
@@ -998,15 +1007,24 @@ def decoupe_plan(distribution : Maillage, plan : tuple[np.ndarray,np.ndarray], d
 - plan_decoupe = decoupe_plan(sphere_maillage, (np.array([1,1,1]), np.array([0,0,0])), 0.02)
 ```
 
-qui extrait le plan de normale $\mathbf{\hat{n}} = \begin{pmatrix}
+qui extrait le plan de normale 
+
+$$
+\mathbf{\hat{n}} = \begin{pmatrix}
 1\\
 1\\
 1
-\end{pmatrix}$ contenant le point $\begin{pmatrix}
+\end{pmatrix}
+$$ 
+
+contenant le point 
+
+$$\begin{pmatrix}
 0\\
 0\\
 0
-\end{pmatrix}$.
+\end{pmatrix}
+$$
 
 #### - **Non_colineaire**
 
