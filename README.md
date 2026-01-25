@@ -108,13 +108,6 @@ def __init__(self, parametrage: callable, domaine_u: tuple[float, float, bool], 
 ```
 
 Pour rappel, une surface $(S)$ est décrite par 2 variables qu'on appelera $u$ et $v$. Ainsi, si $M \in (S)$ alors 
-$$
-M(u,v) = \begin{pmatrix}
-x(u,v) \\
-y(u,v) \\
-z(u,v)
-\end{pmatrix}
-$$
 
 $$
 M(u,v) = \begin{pmatrix} 
