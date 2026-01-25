@@ -347,15 +347,21 @@ La méthode `translate` permet comme son nom l'indique permet de **translater** 
 def translate(self, dl : tuple[float]) -> "Maillage"
 ```
 
-Si $\mathbf{dl} = \begin{pmatrix}
+Si $$
+\mathbf{dl} = \begin{pmatrix}
 dx \\
 dy \\
 dz
-\end{pmatrix}$ alors la méthode renvoie un maillage tel que, $\forall M \in Maillage, M = \begin{pmatrix}
+\end{pmatrix}
+$$
+alors la méthode renvoie un maillage tel que, 
+$$
+\forall M \in Maillage, M = \begin{pmatrix}
 x + dx \\
 y + dy \\
 z + dz
-\end{pmatrix}$.
+\end{pmatrix}
+$$
 
 **Exemple d'utilisation**
 
