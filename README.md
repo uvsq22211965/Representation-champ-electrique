@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="img/banniere.png" />
-</p>
-
 # **Représentation d'un champ électrique**
 
 Ce projet universitaire à été réalisé en deuxième année de licence à l'Université de Versailles St Quentin par Jean-Baptiste Serinet et Maël Berthet 
+
+
+# **Quelques images du projet**
+
+<img src="img/image_projet.png" />
 
 ## **Arborescence**
 
