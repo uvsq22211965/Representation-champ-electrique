@@ -132,6 +132,12 @@ z(u,v)
 \end{pmatrix}
 $$
 
+$$
+M(u,v) = \begin{pmatrix} 
+x(u,v) \ y(u,v) \ z(u,v) 
+\end{pmatrix}
+$$
+
 Un exemple de paramétrage serait celui de la sphère qui pourrait se décrire de cette façon:
 
 $$ 
